@@ -8,8 +8,9 @@
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM
-```
+
 CLIENT
+```
 
 import socket
 s=socket.socket()
@@ -30,8 +31,9 @@ while True:
  print(ack)
  i+=s
 ```
-```
+
 SERVER
+```
 
 import socket
 s=socket.socket()
@@ -44,7 +46,7 @@ while True:
 
 ## OUPUT
 ![image](https://github.com/Pooja-sri45/2b_SLIDING_WINDOW_PROTOCOL/assets/147081893/5fcc1627-6bfd-4cbc-9fb2-1696e3968d8b)
-![image](https://github.com/Pooja-sri45/2b_SLIDING_WINDOW_PROTOCOL/assets/147081893/481e33b1-3322-4dab-8d1f-4bf6db95f876)
+![image](https://github.com/Pooja-sri45/2b_SLIDING_WINDOW_PROTOCOL/assets/147081893/54a71fad-f577-46c1-b9db-e79ac569fdb3)
 
 
 
